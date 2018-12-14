@@ -2,12 +2,12 @@
     <button menuToggle>
         <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Brokers</ion-title>
+    <ion-title>Agents</ion-title>
 </ion-navbar>
 
 <ion-content>
     <ion-list>
-        <button ion-item *ngFor="let broker of brokers" (click)="itemTapped($event, broker)">
+        <button ion-item *ngFor="Agents" (click)="itemTapped($event, broker)">
             <ion-avatar item-left>
                 <img src="{{broker.picture}}"/>
             </ion-avatar>
